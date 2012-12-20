@@ -1,7 +1,7 @@
 module SiteHelpers
 
   def page_title
-    title = "Rockhopper Digital | User-friendly Websites and Applications"
+    title = "Rockhopper Digital"
     if data.page.title
       title << " | " + data.page.title
     end
@@ -12,7 +12,7 @@ module SiteHelpers
     if data.page.description
       description = data.page.description
     else
-      description = "Rockhopper Digital creates user-friendly websites and applications for businesses and brands."
+      description = "Rockhopper Digital creates user-friendly websites and applications that work cross-browser and cross-device."
     end
     description
   end
