@@ -20,4 +20,31 @@ body {
 
 h1, h2, h3 {color:$green;font-family: 'LaneNarrowRegular', Arial, sans-serif; font-weight:normal;}
 
+.logo {
+  display:block;width:388px;border:0;
+  img {width:100%;margin:25px 0;}
+  
+  @media only screen and (max-width:480px) {
+    width:320px;  
+  }
 
+  @media only screen and (max-width:480px) {
+    width:300px;  
+  }
+}
+
+// @media only screen and (max-width:768px) {
+
+// }
+
+// @media only screen and (max-width:640px) {
+  
+// }
+
+// @media only screen and (max-width:480px) {
+    
+// }
+
+// @media only screen and (max-width:320px) {
+  
+// }
