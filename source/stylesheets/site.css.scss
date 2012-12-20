@@ -8,3 +8,16 @@
 *= require "_layout/grid"
 
 */
+
+@import "variables";
+@import "fonts";
+
+html {border-top:3px solid $green;}
+body {
+  font-family: $font-family;
+  font-weight: 300;
+}
+
+h1, h2, h3 {color:$green;font-family: 'LaneNarrowRegular', Arial, sans-serif; font-weight:normal;}
+
+
