@@ -12,7 +12,7 @@ module SiteHelpers
     if data.page.description
       description = data.page.description
     else
-      description = "Rockhopper Digital crafts user-friendly websites and applications for businesses and brands."
+      description = "Rockhopper Digital creates user-friendly websites and applications for businesses and brands."
     end
     description
   end
