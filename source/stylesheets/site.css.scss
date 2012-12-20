@@ -21,8 +21,8 @@ body {
 h1, h2, h3 {color:$green;font-family: 'LaneNarrowRegular', Arial, sans-serif; font-weight:normal;}
 
 .logo {
-  display:block;width:388px;border:0;
-  img {width:100%;margin:25px 0;}
+  display:block;width:388px;border:0;float:left;
+  img {width:100%;margin:25px 0 10px 0;}
   
   @media only screen and (max-width:480px) {
     width:320px;  
@@ -32,6 +32,10 @@ h1, h2, h3 {color:$green;font-family: 'LaneNarrowRegular', Arial, sans-serif; fo
     width:300px;  
   }
 }
+
+.callout {float:right;margin-top:60px;width:450px;}
+
+.stack {border-top: 1px dotted $font-color;margin:15px auto;padding: 15px 0px; }
 
 // @media only screen and (max-width:768px) {
 
