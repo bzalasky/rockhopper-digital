@@ -4,9 +4,6 @@
 *= require "_vendor/normalize.css"
 *= require "_vendor/html5bp.css"
 
-//Grid
-*= require "_layout/grid"
-
 */
 
 @import "variables";
@@ -16,6 +13,10 @@ html {border-top:3px solid $green;}
 body {
   font-family: $font-family;
   font-weight: 300;
+
+  @media only screen and (max-width: 660px) {
+    width: 100%;
+  }
 }
 
 h1, h2, h3 {color:$green;font-family:'LaneNarrowRegular', Arial, sans-serif;font-weight:normal;}
@@ -28,8 +29,11 @@ h1 {
 
 a {border-bottom:1px dotted $green;text-decoration:none;color:$font-color;}
 
+ol, ul {padding:0;}
+
 .main {
-  @media only screen and (max-width:640px) {
+  width:991px;margin:0 auto;
+  @media only screen and (max-width:660px) {
     width:95%;padding:0;  
   }
 }
@@ -38,7 +42,7 @@ a {border-bottom:1px dotted $green;text-decoration:none;color:$font-color;}
   display:block;width:388px;border:0;float:left;
   img {width:100%;margin:25px 0 10px 0;}
   
-  @media only screen and (max-width: 60em) { 
+  @media only screen and (max-width: 1024px) { 
     float:none;
   }
 
@@ -54,7 +58,7 @@ a {border-bottom:1px dotted $green;text-decoration:none;color:$font-color;}
 .callout {
   float:right;margin-top:60px;width:450px;
 
-  @media only screen and (max-width: 60em) { 
+  @media only screen and (max-width: 1024px) { 
     float:none;width:100%;margin-top:0;
   }
 }
@@ -69,36 +73,57 @@ a {border-bottom:1px dotted $green;text-decoration:none;color:$font-color;}
 li:hover .icon {color:$green;}
 
 .icon {float:left;width:60px;padding-top:5px;margin-right:15px;font:52px/70px 'ModernPictogramsNormal',Arial,sans-serif; letter-spacing:0;}
-.descrip {float:right;width:225px;}
+.descrip {float:left;width:225px;}
 
-.home aside {float:left;width:209px;padding-left:30px;margin-top:15px;}
-.home aside ul {width:220px;border-right:none;list-style:none;}
+.home aside {float:left;width:300px;padding-left:30px;}
+.home aside ul {width:100%;border-right:none;list-style:none;}
 .home aside ul li {float:none;}
 .home aside ul li a {display:block; border:0;}
-.home aside ul li .descrip {width:145px;}
+// .home aside ul li .descrip {width:134px;}
 .home aside ul li .descrip {
     padding-top: 5px;
 }
-.home aside ul li .descrip p {display:none;}
 
 #footerNav {margin-bottom:10px;}
 #footerNav ul li {float:left;margin-right:15px;}
 #footerNav ul li a {font-size:12px;}
 
-footer small {color:#7e7e7e;font-size:12px;float:left;}
+footer {
+  padding-bottom:40px !important;
+  small {color:#7e7e7e;font-size:12px;float:left;}
+}
 
-// @media only screen and (max-width:768px) {
+@media only screen and (max-width: 1024px) {
+  .main  {width:660px;margin:0 auto;}
+  #iconNav {border-right:none;margin-bottom:25px;}
+  .home aside {border-top:1px dotted $black;width:660px;margin:0;padding:0;}
+  .home aside ul {width:660px;padding-top:25px;}
+  .home aside ul li {
+    float: left;
+    margin-right: 30px;
+    margin-bottom:5px;
+  }
+  .home aside ul li .descrip {
+    float: left;
+    width: 225px;
+  }
+   .home aside ul li .descrip p {
+    display:block;
+  }
+}
 
-// }
+@media only screen and (max-width:660px) {
+  .main {width:80%; min-width:300px;}
+  #iconNav {width:100%;margin-bottom:25px;}
+  #iconNav li {width:100%;float:none;}
 
-// @media only screen and (max-width:640px) {
-  
-// }
+  .home aside {border-top:1px dotted $black;width:100%;margin:0;padding-top:15px;}
+  .home aside ul {width:100%;padding-top:15px;}
+  .home aside ul li {
+    float: none;
+    margin: 0 auto;
+    width:100%;
+  }
 
-// @media only screen and (max-width:480px) {
-    
-// }
-
-// @media only screen and (max-width:320px) {
-  
-// }
+  .home ul li a {display:block; border:0;}
+}
