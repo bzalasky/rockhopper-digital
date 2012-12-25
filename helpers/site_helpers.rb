@@ -7,6 +7,14 @@ module SiteHelpers
     end
     title
   end
+
+  def callout_title
+    headline = ""
+    if data.page.title
+      headline = data.page.title
+    end
+    headline
+  end
   
   def page_description
     if data.page.description
