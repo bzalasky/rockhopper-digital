@@ -8,6 +8,8 @@ activate :blog do |blog|
   blog.permalink = ":topic/:title"
 end
 
+activate :directory_indexes
+
 ### 
 # Compass
 ###
