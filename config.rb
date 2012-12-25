@@ -5,7 +5,7 @@ set :markdown_engine, :redcarpet
 activate :livereload
 
 activate :blog do |blog|
-  # set options on blog
+  blog.permalink = ":topic/:title"
 end
 
 ### 
