@@ -27,9 +27,39 @@ h1 {
   }
 }
 
-a {border-bottom:1px dotted $green;text-decoration:none;color:$font-color;}
+h2 {margin:15px 0;padding:0;}
+h2 span {font-size:18px;color:$font-color;}
+
+a {
+  border-bottom:1px dotted $green;text-decoration:none;color:$font-color;
+  &:hover {
+    border-bottom:1px solid $green;
+  }
+}
 
 ol, ul {padding:0;}
+
+section {
+  float:left;width:450px;
+  &.left {padding-right:45px;}
+  &.right {padding-left:45px;}
+  img {margin:15px 0;}
+
+  @media only screen and (max-width: 1024px) { 
+    float:none;
+    &.left {padding-right:0;}
+    &.right {padding-left:0;padding-bottom:15px;}
+    width:100%;
+  }
+
+  @media only screen and (max-width:480px) {
+    width:320px;  
+  }
+
+  @media only screen and (max-width:480px) {
+    width:300px;  
+  }
+}
 
 .main {
   width:991px;margin:0 auto;
@@ -40,6 +70,7 @@ ol, ul {padding:0;}
 
 .logo {
   display:block;width:388px;border:0;float:left;
+  &:hover{border:none;}
   img {width:100%;margin:25px 0 10px 0;}
   
   @media only screen and (max-width: 1024px) { 
