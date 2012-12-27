@@ -25,4 +25,8 @@ module SiteHelpers
     description
   end
 
+  def current_year
+    time = Time.new
+    time.year
+  end
 end
