@@ -94,7 +94,7 @@ section {
 
 .callout {
   float:right;margin-top:60px;width:450px;
-
+  p {color:$font-color !important;}
   @media only screen and (max-width: 1024px) { 
     float:none;width:100%;margin-top:0;
   }
@@ -137,21 +137,56 @@ li:hover .icon {color:$green;}
 }
 .content {margin-left:75px;
   ul li {margin-left:2em;}
-
+  p {color:$font-color;}
   @media only screen and (max-width:660px) {
     margin-left:0;
   }
 }
 
+.embed {border:0 !important;}
 .wufoo {
   .info {display:none !important;}
-  label.desc {font: 300 $font-size/#{$line-height} $font-family !important;color: $font-color !important;}
-  form ul {width:100% !important; max-width:660px !important;}
-  form li {padding: 6px 0 9px 0 !important;} 
-  form li.buttons input {float:right;}
-  #errorLi {display:none !important;}
-  form li.error {background-color:#eee !important;} 
+  label.desc {font: 300 $font-size/#{$line-height} $font-family !important;color: $font-color !important;}  
+
+  input, textarea {
+    border: 1px solid #bbb;
+    -webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+    box-shadow: inset 0 0 1px 1px #f6f6f6;
+  }
+
+  textarea.textarea {box-sizing:border-box;}
 } 
+form ul {width:100% !important; max-width:660px !important;}
+form li {padding: 6px 0 9px 0 !important;} 
+form li.buttons input {float:right;}
+#errorLi {display:none !important;}
+form li.error {background-color:#eee !important;} 
+
+#saveForm {
+  background: #e3e3e3;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+  box-shadow: inset 0 0 1px 1px #f6f6f6;
+  color: #333;
+  font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;
+  padding: 8px 0 9px;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
+  width: 150px; 
+  margin-right:0 !important; 
+}
+  #saveForm:hover {
+    background: #d9d9d9;
+    -webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
+    box-shadow: inset 0 0 1px 1px #eaeaea;
+    color: #222;
+    cursor: pointer; }
+  #saveForm:active {
+    background: #d0d0d0;
+    -webkit-box-shadow: inset 0 0 1px 1px #e3e3e3;
+    box-shadow: inset 0 0 1px 1px #e3e3e3;
+    color: #000; }
 
 #footerNav {margin-bottom:10px;}
 #footerNav ul li {float:left;margin-right:15px;}

@@ -4,10 +4,6 @@ set :markdown_engine, :redcarpet
 #Livereload
 activate :livereload
 
-activate :blog do |blog|
-  blog.permalink = ":topic/:title"
-end
-
 activate :directory_indexes
 
 ### 
@@ -74,13 +70,13 @@ configure :build do
   activate :minify_javascript
   
   # Create favicon/touch icon set from source/favicon_base.png
-  activate :favicon_maker
+  #activate :favicon_maker
   
   # Enable cache buster
   # activate :cache_buster
   
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
   
   # Compress PNGs after build
   # First: gem install middleman-smusher
