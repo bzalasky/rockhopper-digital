@@ -160,7 +160,9 @@ form ul {width:100% !important; max-width:660px !important;}
 form li {padding: 6px 0 9px 0 !important;} 
 form li.buttons input {float:right;}
 #errorLi {display:none !important;}
-form li.error {background-color:#eee !important;} 
+form li.error {background-color:transparent !important;} 
+form li.error .desc {color:$font-color !important;}
+form p.error {font:normal 12px Consolas, ‘Andale Mono WT’, ‘Andale Mono’, ‘Lucida Console’, ‘Lucida Sans Typewriter’, ‘DejaVu Sans Mono’, ‘Bitstream Vera Sans Mono’, ‘Liberation Mono’, ‘Nimbus Mono L’, Monaco, ‘Courier New’, Courier, monospace !important;color:$orange;}
 
 #saveForm {
   background: #e3e3e3;

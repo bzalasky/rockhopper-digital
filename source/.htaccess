@@ -10,6 +10,56 @@
 #   Sample .htaccess file of CMS MODx: modxcms.com
 
 
+Redirect 301 /featured/digital-marketing-in-the-physical-world-with-jagtag/ http://www.rockhopperdigital.com
+Redirect 301 /digital-marketing/small-business-corner-2010-marketing-predictions-redux-with-russ-henneberry/ http://www.rockhopperdigital.com
+Redirect 301 /design/reading-list-we-need-to-teach-visual-critical-thinking/ http://www.rockhopperdigital.com
+Redirect 301 /digital-marketing/i-believe-theres-a-pants-on-the-ground-conspiracy-going-on-3-2/ http://www.rockhopperdigital.com
+Redirect 301 /preview.swf http://www.rockhopperdigital.com
+Redirect 301 /reading-list/reading-list-marketing-in-a-mobile-world/ http://www.rockhopperdigital.com
+Redirect 301 /featured/12-steps-to-digital-creative-bliss-or-how-to-disconnect-to-win-friends-and-influence-people/ http://www.rockhopperdigital.com
+Redirect 301 /preview.swf http://www.rockhopperdigital.com
+Redirect 301 /digital-marketing/blog-for-the-ages/ http://www.rockhopperdigital.com
+Redirect 301 /featured/the-wp-super-cache-blank-page-problem/ http://www.rockhopperdigital.com
+Redirect 301 /reading-list/reading-list-dont-confuse-social-networking-with-social-media-2/ http://www.rockhopperdigital.com
+Redirect 301 /featured/custom-thesis-site-for-donato-designs/ http://www.rockhopperdigital.com
+Redirect 301 /design/connecting-the-dots-between-intellectual-property-the-internet-part-i-2/ http://www.rockhopperdigital.com
+Redirect 301 /reading-list/reading-list-we-think/ http://www.rockhopperdigital.com
+Redirect 301 /design/reading-list-we-need-to-teach-visual-critical-thinking-2/ http://www.rockhopperdigital.com
+Redirect 301 /development/the-wp-super-cache-blank-page-problem/ http://www.rockhopperdigital.com
+Redirect 301 /reading-list/reading-list-50-useful-tools-and-resources-for-web-designers/ http://www.rockhopperdigital.com
+Redirect 301 /design/50-digital-communities-and-how-to-use-them/ http://www.rockhopperdigital.com
+Redirect 301 /digital-marketing/digital-media-and-qr-code-redirects-using-p8tch/ http://www.rockhopperdigital.com
+Redirect 301 /design/gargoyles-science-fiction-and-fact-concerning-augmented-reality/ http://www.rockhopperdigital.com
+Redirect 301 /featured/11-digital-ethnography-resources-tools/ http://www.rockhopperdigital.com
+Redirect 301 /digital-marketing/i-believe-theres-a-pants-on-the-ground-conspiracy-going-on-3/ http://www.rockhopperdigital.com
+Redirect 301 /featured/why-blogging-is-like-training-for-a-marathon/ http://www.rockhopperdigital.com
+Redirect 301 /digital-marketing/digital-marketing-versus-sniper-rifles/ http://www.rockhopperdigital.com
+Redirect 301 /design/thinking-about-changing-your-logo/ http://www.rockhopperdigital.com
+Redirect 301 /digital-marketing/where-meta-meets-meat-or-why-my-boss-should-buy-me-a-button-maker/ http://www.rockhopperdigital.com
+Redirect 301 /miscellany/looking-back-in-wonder/ http://www.rockhopperdigital.com
+Redirect 301 /reading-list/reading-list-seo-design-tactics-before-you-write-even-a-line-of-code/ http://www.rockhopperdigital.com
+Redirect 301 /miscellany/reading-list-a-history-of-the-world-in-6-glasses/ http://www.rockhopperdigital.com
+Redirect 301 /reading-list/reading-list-world-brain-the-idea-of-a-permanent-world-encyclopaedia-2/ http://www.rockhopperdigital.com
+Redirect 301 /featured/thoughts-on-digital-communitie/ http://www.rockhopperdigital.com
+Redirect 301 /wp-content/plugins/disqus-comment-system/xd_receiver.htm http://www.rockhopperdigital.com
+Redirect 301 /featured/the-importance-of-miscellany/ http://www.rockhopperdigital.com
+Redirect 301 /miscellany/the-mobile-web-mass-transit-and-me/ http://www.rockhopperdigital.com
+Redirect 301 /digital-marketing/5-things-that-dont-keep-me-from-my-digital-work-outdoors-2/ http://www.rockhopperdigital.com
+Redirect 301 /development/connecting-the-dots-between-intellectual-property-the-internet-part-ii/ http://www.rockhopperdigital.com
+Redirect 301 /reading-list/reading-list-can-experience-be-designed/ http://www.rockhopperdigital.com
+Redirect 301 /digital-marketing/digital-media-is-killing-television-as-we-know-it/ http://www.rockhopperdigital.com
+Redirect 301 /featured/we-rock-we-hop-were-on-alltop-2/ http://www.rockhopperdigital.com
+Redirect 301 /featured/barcodes-and-buttons/ http://www.rockhopperdigital.com
+Redirect 301 /digital-marketing/reading-list-build-a-resource-not-a-brochure/ http://www.rockhopperdigital.com
+Redirect 301 /reading-list/reading-list-designers-checklist-1-0-does-your-blog-design-accomplish-all-of-the-following-2/ http://www.rockhopperdigital.com
+Redirect 301 /miscellany/penguins-at-a-bar-ice-melting-2/ http://www.rockhopperdigital.com
+Redirect 301 /featured/brand-marketing-with-flavors-me/ http://www.rockhopperdigital.com
+Redirect 301 /miscellany/the-importance-of-miscellany/ http://www.rockhopperdigital.com
+Redirect 301 /featured/social-crm-the-feedback-tab-powered-by-getsatisfaction-com/ http://www.rockhopperdigital.com
+Redirect 301 /reading-list/reading-list-world-brain-the-idea-of-a http://www.rockhopperdigital.com
+Redirect 301 /get-an-estimate.htm http://www.rockhopperdigital.com
+Redirect 301 /development/the-wp-super-cache-blank-page-problem/ http://www.rockhopperdigital.com
+
 # ----------------------------------------------------------------------
 # Better website experience for IE users
 # ----------------------------------------------------------------------
