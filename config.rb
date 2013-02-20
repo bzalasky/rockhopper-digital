@@ -6,6 +6,11 @@ activate :livereload
 
 activate :directory_indexes
 
+activate :blog do |blog|
+  blog.prefix = ":topic"
+  blog.permalink = ":topic/:title.html"
+end
+
 ### 
 # Compass
 ###
