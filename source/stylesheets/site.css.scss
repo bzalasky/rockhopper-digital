@@ -45,7 +45,7 @@ a {
 ol, ul {padding:0;}
 
 section {
-  float:left;width:450px;
+  float:left;width:100%;
   &.left {padding-right:45px;}
   &.right {padding-left:45px;}
   img {margin:15px 0;}
@@ -136,12 +136,14 @@ li:hover .icon {color:$green;}
   .icon {width:60px !important;}
 }
 .content {margin-left:75px;
-  ul li {margin-left:2em;}
+  ul li, ol li {margin-left:1em;}
   p {color:$font-color;}
   @media only screen and (max-width:660px) {
     margin-left:0;
   }
 }
+
+.article .content {margin-left:0;}
 
 .embed {border:0 !important;}
 .wufoo {

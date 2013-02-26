@@ -1,12 +1,21 @@
 #Markdown
 set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
+
+activate :syntax,
+         :linenos => 'inline',
+         :anchorlinenos => true,
+         :linenostart => 2
 
 #Livereload
 activate :livereload
 
 activate :directory_indexes
 
+Time.zone = "US/Pacific"
+
 activate :blog do |blog|
+  blog.layout = "article"
   blog.sources = "articles/:title.html"
   blog.permalink = "articles/:title"
 end
