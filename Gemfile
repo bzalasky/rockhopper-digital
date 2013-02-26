@@ -1,9 +1,11 @@
 source :rubygems
 
-gem "middleman", "~>3.0.5"
+gem "middleman"
 gem "middleman-favicon-maker"
 gem "middleman-livereload"
-gem "susy", "1.0"
+gem "middleman-blog"
+
 gem "redcarpet"
 
-gem 'coffee-filter' # Coffeescript filter for HAML
+# For feed.xml.builder
+gem "builder"

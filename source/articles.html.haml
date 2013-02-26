@@ -4,5 +4,10 @@ description: Tap into a chronological feed of code, design, culture, experience 
 ---
 
 .content
-  %p
-    Coming soon!
+  .articles-list
+    %ul.list
+      - blog.articles.each do |article|
+        %li
+          = link_to article.title, article.url 
+
+
