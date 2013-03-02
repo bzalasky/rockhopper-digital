@@ -51,4 +51,4 @@ Fucking priceless.
 
 At the end of the day... I'm not trying to pick on WordPress. Rails and Sinatra rock. But sometimes (when you can), it's nice to simplify things all the way down to the foundation of what makes the web great. Static content.
 
-Discuss this article on Hacker News.
+Discuss this article on [Hacker News](http://news.ycombinator.com/item?id=5291430).

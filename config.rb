@@ -10,8 +10,6 @@ activate :syntax,
 #Livereload
 activate :livereload
 
-activate :directory_indexes
-
 Time.zone = "US/Pacific"
 
 activate :blog do |blog|
@@ -19,6 +17,8 @@ activate :blog do |blog|
   blog.sources = "articles/:title.html"
   blog.permalink = "articles/:title"
 end
+
+activate :directory_indexes
 
 ###
 # Helpers
