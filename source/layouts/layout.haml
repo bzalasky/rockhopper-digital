@@ -13,11 +13,11 @@
     %meta{:content => "width=device-width", :name => "viewport"}
     
     :plain
-      <link rel="icon" class="stipple-nowrap" type="image/png" href="http://www.rockhopperdigital.com/favicon.png">
+      <link rel="icon" type="image/png" href="http://www.rockhopperdigital.com/favicon.png">
 
     = javascript_include_tag "vendor/modernizr-2.6.1.min"
     = stylesheet_link_tag "site"
-    
+
   %body
     /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
     = partial 'partials/header'
@@ -42,11 +42,6 @@
           var x = document.getElementsByTagName('script')[0];
           x.parentNode.insertBefore(s, x);
         })();
-      //]]>
-      </script>
-      <script type='text/javascript'>
-      //<![CDATA[
-        _stippleq.push(['load', '31vrEi', {}]);
       //]]>
       </script>
       <script>
