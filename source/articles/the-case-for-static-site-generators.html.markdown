@@ -1,7 +1,7 @@
 ---
 title: The Case for Static Site Generators
 author:
-description: There's something beautiful about stripping the cruft out publishing content on the web.
+description: There's something beautiful about stripping the cruft out of publishing content on the web.
 date: 2013-02-26 00:46 -08:00
 tags: static site generators, ruby, haml, sass, wordpress, rails, sinatra, middleman
 published: true

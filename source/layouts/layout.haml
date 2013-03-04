@@ -13,22 +13,42 @@
     %meta{:content => "width=device-width", :name => "viewport"}
     
     :plain
-      <link rel="icon" type="image/png" href="http://www.rockhopperdigital.com/favicon.png">
+      <link rel="icon" class="stipple-nowrap" type="image/png" href="http://www.rockhopperdigital.com/favicon.png">
 
     = javascript_include_tag "vendor/modernizr-2.6.1.min"
     = stylesheet_link_tag "site"
+    
   %body
     /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
     = partial 'partials/header'
     %div{:role => "main", :class => "main stack clearfix"}= yield
     = partial 'partials/footer'
     
+    = javascript_include_tag "vendor/underscore"
     = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"
     :javascript
       window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.8.0.min.js"><\/script>')
     = javascript_include_tag "site"
 
     :plain
+      <script type='text/javascript'>
+      //<![CDATA[
+        var _stippleq = _stippleq || [];
+        (function() {
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = '//stipple.cachefly.net/production/stipple.js';
+          var x = document.getElementsByTagName('script')[0];
+          x.parentNode.insertBefore(s, x);
+        })();
+      //]]>
+      </script>
+      <script type='text/javascript'>
+      //<![CDATA[
+        _stippleq.push(['load', '31vrEi', {}]);
+      //]]>
+      </script>
       <script>
         var _gaq=[['_setAccount','UA-38619321-1'],['_trackPageview']];
         (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
