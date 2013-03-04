@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.rockhopperdigital.com/</loc>
+  <lastmod>2013-03-04T10:14:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rockhopperdigital.com/meet-rockhopper/</loc>
+  <lastmod>2013-03-04T10:14:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rockhopperdigital.com/hire-us/</loc>
+  <lastmod>2013-03-04T10:14:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rockhopperdigital.com/websites/</loc>
+  <lastmod>2013-03-04T10:14:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rockhopperdigital.com/applications/</loc>
+  <lastmod>2013-03-04T10:14:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rockhopperdigital.com/tutorials/</loc>
+  <lastmod>2013-03-04T10:14:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rockhopperdigital.com/articles/</loc>
+  <lastmod>2013-03-04T10:14:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rockhopperdigital.com/articles/idols-of-the-mind/</loc>
+  <lastmod>2013-03-04T10:14:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rockhopperdigital.com/articles/the-case-for-static-site-generators/</loc>
+  <lastmod>2013-03-04T10:14:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

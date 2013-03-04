@@ -2,7 +2,7 @@
 title: Idols of the Mind
 author: bzalasky
 description: There are at least four ways to build a product nobody wants. 
-date: 2013-02-25 22:58 -08:00
+date: 2013-02-27 22:58 -08:00
 tags: francis bacon, idols of the mind, product development, empiricism, edward o. wilson, consilience
 published: true
 ---

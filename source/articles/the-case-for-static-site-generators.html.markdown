@@ -9,13 +9,13 @@ published: true
 
 Creating a website has never been so easy, and it's never been so hard. For the purposes of this post, assume that I'm considering a few different options for creating a site like the one you're looking at right now&mdash;a simple content-focused site with pages and articles.  
 
-## WordPress
+<strong>WordPress</strong>
 
 [WordPress](http://wordpress.org/) is ubiquitous. As a publishing platform for non-technical users, WordPress is as solid as any solution out there. Over the last 10 years, it's grown from a simple blogging tool into a fully fledged CMS. I don't need to debate its merits. 
 
 That said, maintaining a self-hosted WordPress installation takes vigilance. Security vulnerabilities can creep in if you don't stay on top of updates. Plugins further compound the problem. I'm not saying you can't put out a solid site on WordPress, just that there's more to worry about than you might think (particularly if you're just getting started, or busy worrying about other things).
 
-## Rails and Sinatra
+<strong>Rails and Sinatra</strong>
 
 [Rails](http://rubyonrails.org/) is a solid web application framework, and a great JSON server for single-page JavaScript applications. However, it's a little heavy for the purposes of our simple site. But what about all the great ruby gems and helpers Rails throws our way that would still be nice to have?
 
@@ -26,7 +26,7 @@ That said, maintaining a self-hosted WordPress installation takes vigilance. Sec
 
 I suppose I could use [Sinatra](http://www.sinatrarb.com/), but then I still have to run an application server. There's more configuration and deployment (for the record, I know my gripes about keeping WordPress secure apply to any web application, including Rails and Sinatra apps). Moreover, it needs to be able to handle Hacker News or Reddit traffic, because, even though I don't want to spend a lot of time making the site, the content is going to be gold (right?). I need to be prepared. What's the solution?
 
-## Enter Static Site Generators
+<strong>Enter Static Site Generators</strong>
 
 There are quite a few out there, however, I'm partial to [Middleman](http://middlemanapp.com/), which is what I used to build this site. To be fair, here's a few others:
   
