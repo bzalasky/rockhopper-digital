@@ -18,6 +18,8 @@ activate :blog do |blog|
   blog.permalink = "articles/:title"
 end
 
+page "/feed.xml", :layout => false
+
 activate :directory_indexes
 
 ###
