@@ -60,6 +60,8 @@ Redirect 301 /reading-list/reading-list-world-brain-the-idea-of-a http://www.roc
 Redirect 301 /get-an-estimate.htm http://www.rockhopperdigital.com
 Redirect 301 /development/the-wp-super-cache-blank-page-problem/ http://www.rockhopperdigital.com
 
+Redirect 301 /feed/ http://www.rockhopperdigital.com/feed.xml
+
 # ----------------------------------------------------------------------
 # Better website experience for IE users
 # ----------------------------------------------------------------------
