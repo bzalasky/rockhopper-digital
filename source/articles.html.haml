@@ -3,15 +3,55 @@ title: Articles
 description: Tap into a chronological feed of code, design, culture, experience and miscellany.
 ---
 
-%h2.content-heading
-  %span.icon
-    V
-  Recent Articles
-.content
-  .articles-list
-    %ul.list
-      - blog.articles.each do |article|
-        %li
-          = link_to article.title, article.url 
+.articles-page
+  %h2.content-heading
+    %span.icon
+      V
+    Recent Articles
+  .content
+    .articles-list
+      %ul.list
+        - blog.articles.each do |article|
+          %li
+            = link_to article.title, article.url
+            :plain
+              <br>
+            .description
+              = article.data.description
+
+%aside
+  %ul.clearfix
+    :plain
+      <li>
+        <a class="clearfix" href="http://feeds.feedburner.com/RockhopperDigital" title="Subscribe to Rockhopper's feed">
+          <div class="icon">
+            ^
+          </div>
+          <div class="descrip">
+            <h2>Feed</h2>
+            <p>Articles published Monday, Wednesday and Friday.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="clearfix" href="https://www.facebook.com/pages/Rockhopper-Digital/211271609445" title="Facebook">
+          <div class="icon">
+            F
+          </div>
+          <div class="descrip">
+            <h2>Facebook</h2>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="clearfix" href="https://twitter.com/werockwehop" title="Twitter">
+          <div class="icon">
+            T
+          </div>
+          <div class="descrip">
+            <h2>Twitter</h2>
+          </div>
+        </a>
+      </li>
 
 

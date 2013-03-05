@@ -50,4 +50,6 @@ configure :build do
   
   # Use relative URLs
   activate :relative_assets
+
+  activate :asset_hash
 end
