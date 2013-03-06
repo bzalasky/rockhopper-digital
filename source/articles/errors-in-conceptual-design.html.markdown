@@ -34,13 +34,13 @@ Every consumer facing software project has economic and aesthetic objectives tha
 
 <img class="stipple-nowrap" src="/images/competing-objectives.png">
 
-There are clearly many [examples of software projects run off course](http://en.wikipedia.org/wiki/Anti-pattern), similar to Paconius' failed endeavour. Feel free to share your own in the discussion on Hacker News. However, I'm going to focus on how technical, economic and aesthetic objectives can be acheived harmoniously per an article I read on "[Designing for Performance](http://webdesign.tutsplus.com/articles/user-experience-articles/designing-for-performance/)," by [P.J. Onori](https://twitter.com/somerandomdude).
+There are clearly many [examples of software projects run off course](http://en.wikipedia.org/wiki/Anti-pattern), similar to Paconius' failed endeavour. Feel free to share your own in the discussion on [Hacker News](http://news.ycombinator.com/item?id=5330234). However, I'm going to focus on how technical, economic and aesthetic objectives can be acheived harmoniously per an article I read on "[Designing for Performance](http://webdesign.tutsplus.com/articles/user-experience-articles/designing-for-performance/)," by [P.J. Onori](https://twitter.com/somerandomdude).
 
 <blockquote cite="http://webdesign.tutsplus.com/articles/user-experience-articles/designing-for-performance/">
 Designing for performance requires a commitment to maximize the necessities and strip out superfluous luxuries. A more utilitarian approach towards design is needed where each element has a tangible and net-positive impact on the end result. This does not negate the importance of aesthetics, rather it means that it should not given a blank check.
 </blockquote>
 
-*No blank checks* doesn't mean letting the engineering team make all the decisions, it means regardless of your role, embrace an engineers mindset. One reason why VCs are insistent on startups having technical founders is their ability to assess the implications of conceptual design. Think carefully about how early design decisions impact technical architecture and performance. At the end of the day, we're all trying to solve problems, and this leads into my favorite part of P.J.'s article:
+*No blank checks* doesn't mean letting the engineering team make all the decisions, it means regardless of your role, embrace an engineers mindset. One reason why [VCs are insistent on startups having technical founders](http://allthingsd.com/20130305/seven-more-questions-for-andreessen-horowitz-enterprise-dude-peter-levine/?mod=tweet) is their ability to assess the implications of conceptual design. Think carefully about how early design decisions impact technical architecture and performance. At the end of the day, we're all trying to solve problems, and this leads into my favorite part of P.J.'s article:
 
 <blockquote cite="http://webdesign.tutsplus.com/articles/user-experience-articles/designing-for-performance/">
 ...aesthetics should always support the problems we are asked to solve.... Looking at design through this lens will help create a goal-driven approach and focus our thinking. 
@@ -52,5 +52,5 @@ That said, as we discussed earlier, goals alone aren't enough to keep a project 
 - Explore potential solutions to novel problems with other engineers (or critical thinkers). 
 - Question and attack your own ideas, but don't stop having them.
 
-Discuss this article on Hacker News.
+Discuss this article on [Hacker News](http://news.ycombinator.com/item?id=5330234).
 
