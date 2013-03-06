@@ -148,6 +148,18 @@ aside ul li .descrip {
   min-height:320px;
 }
 
+.article {
+  iframe {margin:20px 0;}
+  img, iframe {
+    max-width:100%;
+  }
+
+  blockquote {
+    border-left: 1px dotted $font-color;
+    padding-left: 30px;
+  }
+}
+
 .article-wrap .article {border-right:0;}
 .article-wrap aside {border-left:1px dotted #444444;}
 
