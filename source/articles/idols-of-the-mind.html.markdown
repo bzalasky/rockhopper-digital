@@ -18,7 +18,7 @@ Here are four ways to build a product nobody wants.
 
 1.  <strong>Rely on preconceived assumptions</strong>
 
-    Questions are one of the best tools for avoiding unwarranted assumptions. Paul Graham suggests, "[The initial idea](http://paulgraham.com/ideas.html) is just a starting point--not a blueprint, but a question." A fresh perspective is invaluable when entering a domain that's ripe for disruption. However, failure to recognize your own innate biases can limit your ability to innovate. From your target market, to the problem your product solves, don't limit yourself with assumptions unless you've a compelling reason. There are times when assumptions are unavoidable, but that's ok as long as you recognize them. 
+    Questions are one of the best tools for avoiding unwarranted assumptions. Paul Graham suggests, &ldquo;[The initial idea](http://paulgraham.com/ideas.html) is just a starting point--not a blueprint, but a question.&rdquo; A fresh perspective is invaluable when entering a domain that's ripe for disruption. However, failure to recognize your own innate biases can limit your ability to innovate. From your target market, to the problem your product solves, don't limit yourself with assumptions unless you've a compelling reason. There are times when assumptions are unavoidable, but that's ok as long as you recognize them. 
 
 
 2.  <strong>Fail to acknowledge external perspectives</strong>
@@ -28,7 +28,7 @@ Here are four ways to build a product nobody wants.
 
 3.  <strong>Forget that talk is cheap</strong>
 
-    Talk is cheap in all forms. This goes beyond just put up or shut up. Don't "let the power of mere words induce belief in non-existent things," as Edward O. Wilson paraphrases Bacon's *idols of the marketplace* in [Consilience: The Unity of Knowledge](http://www.amazon.com/gp/product/067976867X/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=067976867X&linkCode=as2&tag=rockhodigita-20) (unashamed to drop an affiliate link here). Just as talking about your product won't get you to launch, someone telling you a market exists doesn't mean it actually does. Take steps to empirically validate any assumptions you've made about your product and its place in the world.
+    Talk is cheap in all forms. This goes beyond just put up or shut up. Don't &ldquo;let the power of mere words induce belief in non-existent things,&rdquo; as Edward O. Wilson paraphrases Bacon's *idols of the marketplace* in [Consilience: The Unity of Knowledge](http://www.amazon.com/gp/product/067976867X/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=067976867X&linkCode=as2&tag=rockhodigita-20) (unashamed to drop an affiliate link here). Just as talking about your product won't get you to launch, someone telling you a market exists doesn't mean it actually does. Take steps to empirically validate any assumptions you've made about your product and its place in the world.
 
 
 4.  <strong>Let dogmatic thinking cloud your vision</strong>
