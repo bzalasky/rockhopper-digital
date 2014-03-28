@@ -30,7 +30,7 @@ As the oxen distanced themselves from the spool, it became less stable and was p
 
 Every consumer facing software project has economic and aesthetic objectives that are weighted to varying degrees. How do we balance these aims with technical design?
 
-<img class="stipple-nowrap" src="/images/competing-objectives.png">
+<img class="stipple-nowrap" src="http://www.rockhopperdigital.com/images/competing-objectives.png">
 
 There are clearly many [examples of software projects run off course](http://en.wikipedia.org/wiki/Anti-pattern), similar to Paconius' failed endeavour. Feel free to share your own in the discussion on [Hacker News](http://news.ycombinator.com/item?id=5330234). However, I'm going to focus on how technical, economic and aesthetic objectives can be acheived harmoniously per an article I read on "[Designing for Performance](http://webdesign.tutsplus.com/articles/user-experience-articles/designing-for-performance/)," by [P.J. Onori](https://twitter.com/somerandomdude).
 
