@@ -15,9 +15,9 @@ GEM
       fssm (>= 0.2.7)
       sass (~> 3.1)
     em-websocket (0.4.0)
-      eventmachine (>= 0.12.9)
+      eventmachine (= 1.0.9)
       http_parser.rb (~> 0.5.3)
-    eventmachine (1.0.0)
+    eventmachine (1.0.9)
     execjs (1.4.0)
       multi_json (~> 1.0)
     favicon_maker (0.0.9)
@@ -139,3 +139,6 @@ DEPENDENCIES
   middleman-livereload
   middleman-syntax
   redcarpet
+
+BUNDLED WITH
+   1.13.6
