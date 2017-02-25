@@ -11,8 +11,6 @@ published: true
 
 [Francis Bacon wrote about *idols of the mind*](http://plato.stanford.edu/entries/francis-bacon/#Ido), with regard to scientific inquiry. This is a nod to his style of clear, empirical thinking, with regard to product development (software, or otherwise).
 
-<img class="stippled-photo" width="402" height="402" src="https://s3.amazonaws.com/assets.stippleit.com/photos/39727404/original/Francis-Bacon-9194632-1-402.jpg?1362217204" alt="stippled-photo" data-stipple-photo-id="39727404" />
-
 Here are four ways to build a product nobody wants.
 
 
